@@ -1,27 +1,40 @@
-# AngularReactiveFormsValidateSubmit
+# Angular-reactive-forms-validate-submit
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## Bootstrap 4 Ref
+https://www.w3schools.com/bootstrap4/bootstrap_forms.asp
 
-## Development server
+## App Setup
+Step1: ng new [AppName] --style=scss --routing --prefix myprefix
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Install Bootstrap
+Step3: npm install bootstrap --save
+Step4: Open angular.json
+"styles": [
+  "src/styles.scss",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],  ----- [or] -------
 
-## Code scaffolding
+There are many ways to do that. The simpest method is by using the [src/styles.css]file and adding the following code:
+URL: https://www.techiediaries.com/angular-bootstrap-ui/
+@import "~bootstrap/dist/css/bootstrap.css";
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## NGRX schematics:
+https://www.intertech.com/Blog/ngrx-tutorial-quickly-adding-ngrx-to-your-angular-6-project/
+Scaffolding library for Angular applications using NgRx libraries. 
+@ngrx/schematics provides CLI commands for generating files when building new NgRx feature areas and expanding existing ones.
 
-## Build
+npm install @ngrx/schematics --save-dev
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Install the rest of NgRx:
+npm install @ngrx/store @ngrx/effects @ngrx/store-devtools @ngrx/router-store --save
 
-## Running unit tests
+## NGRX Flow Diagram
+![Ngrx-Image](https://user-images.githubusercontent.com/30646609/62344444-b22be680-b50b-11e9-85ae-7ce70f588995.JPG)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## NGRX Form
+https://github.com/MrWolfZ/ngrx-forms
+https://ngrx-forms.readthedocs.io/en/master/user-guide/form-controls/#connecting-to-the-dom
 
-## Running end-to-end tests
+## NGRX Form DEMO
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://ngrx-forms-example-app-v2.herokuapp.com/introduction
